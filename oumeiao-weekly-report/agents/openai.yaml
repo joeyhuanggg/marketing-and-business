@@ -1,0 +1,4 @@
+interface:
+  display_name: "欧美澳周报"
+  short_description: "生成欧美澳商务周报并诊断问题渠道"
+  default_prompt: "Use $oumeiao-weekly-report to first verify BI login state, visible permissions, and report availability in the user's current BI session. If access is blocked, explicitly ask the user to log in or switch to an account with permission. Once BI access is confirmed, read the needed reports and draft an 欧美澳商务 weekly, half-week, or monthly report with weak channels, causes, and actions. Do not rely on committed real data."
