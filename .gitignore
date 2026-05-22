@@ -1,0 +1,31 @@
+# Private business data
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.zip
+
+# Browser artifacts
+trace*
+playwright-report/
+test-results/
+screenshots/
+downloads/
+
+# Logs
+*.log
+logs/
+
+# Private runtime files
+private/
+**/private-runtime.json
+**/*.secrets.*
+*.env
+.env.*
+
+# Local plugin repair artifacts
+plugin-backups/
+
+# Internal learning notes with private route inventory
+BI_学习摘要.md
+BI_当前权限目录学习.md
