@@ -1,0 +1,25 @@
+{
+  "bi_base_url": "https://your-private-bi-host.example.com",
+  "business_label": "欧美澳商务",
+  "visible_path_aliases": {
+    "business_root": "海外商务",
+    "region_group": "非港澳商务"
+  },
+  "reports": {
+    "chain_achievement": "YOUR_CHAIN_ACHIEVEMENT_REPORT_NAME",
+    "channel_split": "YOUR_CHANNEL_SPLIT_REPORT_NAME",
+    "owner_split": "YOUR_OWNER_SPLIT_REPORT_NAME",
+    "daily_trend": "YOUR_DAILY_TREND_REPORT_NAME",
+    "detail_drilldown": "YOUR_DETAIL_DRILLDOWN_REPORT_NAME"
+  },
+  "filters": {
+    "primary_subject_keep": [
+      "思维"
+    ],
+    "primary_subject_exclude": [
+      "美术"
+    ]
+  },
+  "private_export_dir": "C:/private/bi-exports",
+  "notes": "This file is a template only. Store the real version outside Git or under a gitignored private folder."
+}
